@@ -16,12 +16,12 @@ All files will reference data in metric. While the data can be converted based o
 
 	These files will give the data at each change on the course.
 
-	Most of the data comes in the form of racers who have ridden along the route with tracking equipment on their bikes. One example for the Tour De France is from Mikel Nieve's data here:
+	Most of the data comes in the form of racers who have ridden along the route with tracking equipment on their bikes. One example 		for the Tour De France is from Mikel Nieve's data here:
 	http://home.trainingpeaks.com/public/workout/MIM3PEJE55W3J6PJ26DBD35XXQ
 
-	For the example file, since I have not written any sort of scrapers to average several racer's data, the numbers will be all made up.
+	For the example file, since I have not written any sort of scrapers to average several racer's data, the numbers will be all 			made up.
 
-	The the values are space separated as the program reads each value by space (new lines count as a space, but it makes it more readable to separate dependent information by line).
+	The the values are space separated as the program reads each value by space (new lines count as a space, but it makes it more 			readable to separate dependent information by line).
 
 	Length_of_Course
 	Distance_From_Start Grade
@@ -34,9 +34,9 @@ All files will reference data in metric. While the data can be converted based o
 
 [map]_Recommended_Speed.txt:
 
-	These will be based off of physics calculations of max speeds that can be achieved on the course with respect to going around curves.
+	These will be based off of physics calculations of max speeds that can be achieved on the course with respect to going around 			curves.
 
-	The equation used to calculate this will be fairly simple, as this is more of a theoretical maximum rather than one that considers actual conditions (like rain, ice, wind, etc.). The equation is:
+	The equation used to calculate this will be fairly simple, as this is more of a theoretical maximum rather than one that 			considers actual conditions (like rain, ice, wind, etc.). The equation is:
 
 	speed = sqrt( (r * g * (sin(theta) + u * cos(theta)) ) / (cos(theta) - u * sin(theta)) )
 
@@ -45,7 +45,7 @@ All files will reference data in metric. While the data can be converted based o
 	theta is the angle of the bank
 	u is the frictional constant of the road (~0.7 for dry roads, ~0.4 for wet roads)
 
-	The the values are space separated as the program reads each value by space (new lines count as a space, but it makes it more readable to separate dependent information by line).
+	The the values are space separated as the program reads each value by space (new lines count as a space, but it makes it more 			readable to separate dependent information by line).
 
 	Length_of_Course
 	Distance_From_Start Grade
