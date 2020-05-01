@@ -129,7 +129,7 @@ int main(int argc, char** argv)
 		currentDistance += (currentSpeed * n);
 
 		adjustGradient(gradientAdjustment);
-
+		
 		gradientOutput << readGradient() << std::endl;
 		distanceOutput << currentDistance << std::endl;
 	}
